@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+}
+.section-01{
+    background-color: #F5F5F5;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+a{text-decoration: none;}
+.logo{
+    justify-self: center;
+    align-self: center;
+}
+.iteams{
+    justify-self: center;
+}
+.iteams ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+   
+}
+.iteams ul li a{
+    font-size: 24px;
+    color: #414142; 
+   text-transform: uppercase;
+}
+.section-02{
+    justify-self: center;
+}
+.reg-form{
+    width: 300px;
+    margin-top: -40px;
+  
+}
+button{
+    width: 100%;
+    text-align: start;
+    display: flex;
+    align-items: center;
+  margin-bottom: 15px;
+  height:50px;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+p{text-align: center;font-size: 12px;}
+span{
+    padding-left: 15px;
+    font-size: 16px;
+}
+button img{
+    width: 28px;
+    height: 28px;
+}
+
+.fb{
+  background-color: #4267B2;
+ 
+}
+.gg{color:#444444;
+    background-color: #F1F1F4;
+}
+.rg{
+    color:#FFFFFF;
+    background-color:#ED1C24;
+    padding-left: 38%;
+    height: 42px;
+}
+input{
+    font-size: 14px;
+    width: 93.5%;
+    margin-bottom: 15px;
+    height: 42px;
+    padding-left: 14px;
+    border-radius: 8px;
+  
+}
+input::placeholder{
+    color:#898989;
+    width: 100%;
+    text-transform: capitalize;
+    
+}
